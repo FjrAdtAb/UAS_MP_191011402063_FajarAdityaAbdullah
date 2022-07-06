@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
               overflow: TextOverflow.ellipsis,
             ),
             subtitle: Text(
-              '${_posts[index]['description']}',
+              '${_posts[index]['publishedAt']}',
               maxLines: 2,
               overflow: TextOverflow.ellipsis,
             ),
